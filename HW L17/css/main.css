@@ -1,0 +1,248 @@
+
+.navbar-brand{
+    width: 30%;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 36px;
+}
+
+a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+a:hover{
+    color: #00D74A;
+}
+.nav-link1, .nav-link2 img{
+    height: 17px;
+    width: 17px;
+}
+li{
+    position: relative;
+}
+li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: #00D74A;
+    transition: 0.5s linear;
+    position: absolute;
+}
+li:hover::after{
+    width: 100%;
+}
+
+.second{
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    background-color:  #00D74A;
+    margin: 150px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4{
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+.col-md-4:hover{
+    box-shadow: 7px 5px 10px;
+    border-radius: 15px;
+}
+.data{
+    font-size: 20px;
+    font-weight: 400;
+    /*line-height: 20px;*/
+}
+
+.linear{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to top left, orangered 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.number{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 350px) and (max-width: 576px) {
+    .logotip{
+        width: 45% !important;
+    }
+    .navbar-brand img{
+        width: 107px;
+        height: 26px;
+    }
+    .search{
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-link2 img{
+        width: 20px;
+        height: 17px;
+    }
+    .right-side{
+        display: none;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .logotip{
+        width: 50% !important;
+    }
+    .navbar-brand img{
+        width: 133px;
+        height: 32px;
+    }
+    .search{
+        width: 100%;
+        display: flex;
+    }
+    .nav-link1 img{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-link2 img{
+        width: 22px;
+        height: 20px;
+    }
+    .right-side{
+        display: none;
+    }
+    .additional{
+        display: block !important;
+    }
+    .second{
+        width: 350px;
+        height: 80px;
+    }
+    .linear{
+        width: 150px;
+        height: 150px;
+    }
+    .number{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media   (min-width: 992px) and (max-width: 1200px){
+    .logotip{
+        width: 60% !important;
+    }
+    .navbar-brand img{
+        width: 133px;
+        height: 32px;
+    }
+    .search{
+        width: 100%;
+        display: flex;
+    }
+    .nav-link1 img{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-link2 img{
+        width: 22px;
+        height: 20px;
+    }
+    .right-side{
+        display: none;
+    }
+    .additional{
+        display: block !important;
+    }
+    .second{
+        width: 500px;
+        height: 100px;
+    }
+
+    .linear{
+        width: 150px;
+        height: 150px;
+    }
+    .number{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media   (min-width: 1200px) and (max-width: 1400px){
+    .logotip{
+        width: 25% !important;
+    }
+    .navbar-brand img{
+        width: 133px;
+        height: 32px;
+    }
+    .nav-link1 img{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-link2 img{
+        width: 22px;
+        height: 20px;
+    }
+    .search{
+        margin-left: 15px;
+    }
+    .nav-link2{
+        display: none;
+    }
+    .additional{
+        display: none;
+    }
+}
+@media   (min-width: 1400px) and (max-width: 10000px){
+    .logotip{
+        width: 25% !important;
+    }
+    .navbar-brand img{
+        width: 133px;
+        height: 32px;
+    }
+    .nav-link1 img{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-link2 img{
+        width: 22px;
+        height: 20px;
+    }
+    .nav-link2{
+        display: none;
+    }
+    .search{
+        margin-left: 35px;
+    }
+    .additional{
+        display: none;
+    }
+}
+
+
+

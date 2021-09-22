@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 17</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/main.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/img_avatar1.png" alt="">
+                <div class="card-img-overlay">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur distinctio doloribus
+                    eaque, eligendi eos et excepturi fugiat, incidunt iste.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="dropdown">
+                <button data-toggle="dropdown" type="button" class="btn btn-success  dropdown-toggle">
+                    Dropdown button
+                </button>
+
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Item 1</a>
+                    <a href="#" class="dropdown-item">Item 2</a>
+                    <a href="#" class="dropdown-item">Item 3</a>
+                    <a href="#" class="dropdown-item">Item 4</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-dark text-white" data-toggle="collapse" data-target="#myCollapse" >
+                        collapse element
+                </div>
+                <div class="collapse show" id="myCollapse" >
+                    <div class="card-body" data-toggle="collapse" data-target="#collapseTwo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequuntur cupiditate
+                        dignissimos dolore doloremque enim eum excepturi nisi numquam temporibus?
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseTwo" data-toggle="collapse" data-target="#photoCollapse">
+                    <button type="button" class="btn-block btn-secondary">open photo</button>
+                </div>
+                
+                <div class="collapse" id="photoCollapse">
+                    <img src="images/photo.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row my-5">
+        <div class="col-md-4">
+                <div id="accordion">
+                   <div class="card">
+                       <div class="card-header" >
+                           <a href="#first" data-toggle="collapse">
+                               first accordion element
+                           </a>
+                       </div>
+                       <div class="collapse " id="first" data-parent="#accordion">
+                           <div class="card-body">
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi?
+                           </div>
+                       </div>
+                   </div>
+
+                    <div class="card">
+                        <div class="card-header" >
+                            <a href="#second" data-toggle="collapse">
+                                first accordion element
+                            </a>
+                        </div>
+                        <div class="collapse " id="second" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi?
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" >
+                            <a href="#third" data-toggle="collapse">
+                                first accordion element
+                            </a>
+                        </div>
+                        <div class="collapse" id="third" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi?
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" >
+                            <a href="#fourth" data-toggle="collapse">
+                                first accordion element
+                            </a>
+                        </div>
+                        <div class="collapse" id="fourth" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nisi?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/src/popover.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
